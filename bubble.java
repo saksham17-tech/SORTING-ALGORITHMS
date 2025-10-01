@@ -33,9 +33,9 @@ class bubble
                     flag=true;
                 }                
             }
-        }
-        if(!flag)
-            break;
+            if(!flag)
+                break;
+        }        
     }
 
     static void print(int[] arr)
@@ -49,3 +49,4 @@ class bubble
     //time complexity = O(n^2)
 
 }
+
