@@ -1,0 +1,38 @@
+# Bytecode, compiled objects, and binaries
+*.class
+*.o
+*.obj
+*.exe
+*.out
+*.dll
+*.so
+*.dylib
+*.a
+
+# Python bytecode and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Build and distribution directories (Java, C/C++, Python)
+build/
+bin/
+dist/
+target/
+.gradle/
+CMakeFiles/
+CMakeCache.txt
+
+# Package archives
+*.jar
+*.war
+
+# IDEs, OS, and local environment files
+.idea/
+.vscode/
+.vs/
+.DS_Store
+Thumbs.db
+.env
