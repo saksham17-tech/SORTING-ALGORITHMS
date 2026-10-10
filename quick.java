@@ -1,6 +1,5 @@
 import java.util.*;
-class quick
-{
+class quick {
     public static void main(String[] sm) {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the size of array: ");
