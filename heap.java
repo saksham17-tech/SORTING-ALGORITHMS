@@ -39,8 +39,8 @@ public class heap {
         int left = 2*i + 1;
         int right = 2*i + 2;
 
-        if(left<size && (arr[left]>arr[largest]))   largest = left;
-        if(right<size && (arr[right]>arr[largest])) largest = right;
+        if(left<size && (arr[left]>arr[largest]))   largest = left;     //smallest>left
+        if(right<size && (arr[right]>arr[largest])) largest = right;    //smallest>right descending
         if(largest!=i) {
             swap(arr,i,largest);
             heapify(arr,largest,size);
